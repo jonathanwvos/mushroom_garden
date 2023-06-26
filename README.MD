@@ -30,21 +30,22 @@ jupyter notebook
 Alternatively, if you're using an editor within inline capabilities (like VS Code), you can just open the notebook and it will work.
 
 # Data
-To begin, you'll need the data for which the code is configured. Please download the images from the following link [Kaggle](https://www.kaggle.com/datasets/lizhecheng/mushroom-classification). Once you have the data, combine the `Exidia` and `Inocybe` folders from "Transfer data" with the folders from the "Mushrooms" directory so that your local data directory looks as such:
+To begin, you'll need the data for which the code is configured and setup the `data` directory along with two sub-directories: `results` and `species`. Please download the images from the following link [Kaggle](https://www.kaggle.com/datasets/lizhecheng/mushroom-classification). Once you have the data, combine the `Exidia` and `Inocybe` folders from "Transfer data" with the folders from the "Mushrooms" directory so that your local data directory looks as such:
 
 ```
-data
-|--- results
-|--- species
-     |--- Agaricus
-     |--- Amanita
-     |--- Boletus
-     |--- Cortinarius
-     |--- Entoloma
-     |--- Exidia
-     |--- Hygrocybe
-     |--- Inocybe
-     |--- Lactarius
-     |--- Russula
-     |--- Suillus
+mushroom_garden
+|--- data
+     |--- results
+     |--- species
+          |--- Agaricus
+          |--- Amanita
+          |--- Boletus
+          |--- Cortinarius
+          |--- Entoloma
+          |--- Exidia
+          |--- Hygrocybe
+          |--- Inocybe
+          |--- Lactarius
+          |--- Russula
+          |--- Suillus
 ```
